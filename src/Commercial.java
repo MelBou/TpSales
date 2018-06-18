@@ -1,14 +1,14 @@
 public class Commercial extends User {
 
-    public addProd(Product){
+    public void addProd(Product product){
 
     }
 
-    public getListProd(){
-
+    public Product[] getListProd(){
+        return null;
     }
 
-    public getSales(){
-
+    public Basket[] getSales(){
+        return null;
     }
 }

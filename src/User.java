@@ -20,11 +20,11 @@ public class User {
      * @return Si login et password bons, l'utilisateur est connecté.
      */
     public boolean toLog(String login, String password){
-
+        return false;
     }
 
     /**
-     * @return L'utilisateur sera déconnecté.
+     * L'utilisateur sera déconnecté.
      */
     public void toLogOut(){
 

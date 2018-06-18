@@ -1,11 +1,11 @@
 public class Admin extends User {
 
-    list users
+    private String usersList;
 
     /**
      *
      */
-    public void addUser(User ){
+    public void addUser(User user){
 
     }
 }
